@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
+    public Transform target = null;
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
@@ -47,6 +48,22 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 desiredForward = Vector3.RotateTowards (transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
         m_Rotation = Quaternion.LookRotation (desiredForward);
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            Vector3 toTarget = (target.position - transform.position).normalized;
+            if (Vector3.Dot(toTarget, transform.forward) > 0.5f)
+            {
+                Debug.Log("You can backstab the Ghost");
+            }
+            else 
+            {
+                Debug.Log("You cannot backstab the Ghost");
+            }
+        }
     }
 
     void OnAnimatorMove ()
