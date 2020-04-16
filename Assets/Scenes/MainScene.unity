@@ -444,6 +444,11 @@ PrefabInstance:
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 593156686}
+    - target: {fileID: 7184402110699174799, guid: 62326909310477c459c89ddb309a3828,
+        type: 3}
+      propertyPath: cutoff
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7406921319472883505, guid: 62326909310477c459c89ddb309a3828,
         type: 3}
       propertyPath: m_Radius
@@ -718,6 +723,11 @@ PrefabInstance:
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 593156686}
+    - target: {fileID: 7184402110699174799, guid: 62326909310477c459c89ddb309a3828,
+        type: 3}
+      propertyPath: cutoff
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7406921319472883505, guid: 62326909310477c459c89ddb309a3828,
         type: 3}
       propertyPath: m_Radius
@@ -5839,6 +5849,11 @@ PrefabInstance:
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 593156686}
+    - target: {fileID: 7184402110699174799, guid: 62326909310477c459c89ddb309a3828,
+        type: 3}
+      propertyPath: cutoff
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7406921319472883505, guid: 62326909310477c459c89ddb309a3828,
         type: 3}
       propertyPath: m_Radius
@@ -6397,6 +6412,11 @@ PrefabInstance:
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 593156686}
+    - target: {fileID: 7184402110699174799, guid: 62326909310477c459c89ddb309a3828,
+        type: 3}
+      propertyPath: cutoff
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7406921319472883505, guid: 62326909310477c459c89ddb309a3828,
         type: 3}
       propertyPath: m_Radius
